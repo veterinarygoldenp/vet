@@ -5,6 +5,74 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Firefox",
+            "type": "firefox",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Firefox with URL",
+            "type": "firefox",
+            "request": "launch",
+            "url": "${input:myUrl}",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Firefox with URL (Input)",
+            "type": "firefox",
+            "request": "launch",
+            "url": "${input:myUrl}",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch index.html",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "file": "${workspaceFolder}/index.html"
+        },
+        {
+            "name": "Launch localhost",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "${input:myUrl}",
+            // Uncomment the next line to use a specific web root
+            // webRoot: "${workspaceFolder}/path/to/webroot"
+        },
+        {
+            "type": "firefox",
+            "request": "attach",
+            "name": "Attach"
+        },
+        {
+            "type": "firefox",
+            "request": "attach",
+            "name": "Attach to Firefox",
+        },
+        {
+            "name": "Launch Firefox",
+            "type": "firefox",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Firefox with URL",
+            "type": "firefox",
+            "request": "launch",
+            "url": "${input:myUrl}",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Firefox with URL (Input)",
+            "type": "firefox",
+            "request": "launch",
+            "url": "${input:myUrl}",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "name": "Launch index.html",
             "type": "firefox",
             "request": "launch",
