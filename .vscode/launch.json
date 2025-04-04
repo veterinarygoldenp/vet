@@ -1,105 +1,14 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-        
-        {
-            "name": "Launch Firefox",
-            "type": "firefox",
-            "request": "launch",
-            "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "name": "Launch Firefox with URL",
-            "type": "firefox",
-            "request": "launch",
-            "url": "${input:myUrl}",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "name": "Launch Firefox with URL (Input)",
-            "type": "firefox",
-            "request": "launch",
-            "url": "${input:myUrl}",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "name": "Launch index.html",
-            "type": "firefox",
-            "request": "launch",
-            "reAttach": true,
-            "file": "${workspaceFolder}/index.html"
-        },
-        {
-            "name": "Launch localhost",
-            "type": "firefox",
-            "request": "launch",
-            "reAttach": true,
-            "url": "${input:myUrl}",
-            // Uncomment the next line to use a specific web root
-            // webRoot: "${workspaceFolder}/path/to/webroot"
-        },
-        {
-            "type": "firefox",
-            "request": "attach",
-            "name": "Attach"
-        },
-        {
-            "type": "firefox",
-            "request": "attach",
-            "name": "Attach to Firefox",
-        },
-        {
-            "name": "Launch Firefox",
-            "type": "firefox",
-            "request": "launch",
-            "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "name": "Launch Firefox with URL",
-            "type": "firefox",
-            "request": "launch",
-            "url": "${input:myUrl}",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "name": "Launch Firefox with URL (Input)",
-            "type": "firefox",
-            "request": "launch",
-            "url": "${input:myUrl}",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "name": "Launch index.html",
-            "type": "firefox",
-            "request": "launch",
-            "reAttach": true,
-            "file": "${workspaceFolder}/index.html"
-        },
-        {
-            "name": "Launch localhost",
-            "type": "firefox",
-            "request": "launch",
-            "reAttach": true,
-            "url": "http://localhost/index.html",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "name": "Attach",
-            "type": "firefox",
-            "request": "attach"
-        },
-        {
-            "name": "Launch WebExtension",
-            "type": "firefox",
-            "request": "launch",
-            "reAttach": true,
-            "addonPath": "${workspaceFolder}"
-        }
+      
+
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/app.js", // Replace with your entry file
+        "cwd": "${workspaceFolder}"
+      }
     ]
-}
+  }
