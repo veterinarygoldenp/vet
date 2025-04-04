@@ -1,5 +1,5 @@
 {
-    "configurations": [
+    "configurations" [
       {
         "type": "node",
         "request": "launch",
@@ -12,4 +12,4 @@
         "preLaunchTask": "npm: start"
       }
     ]
-  }
+}
